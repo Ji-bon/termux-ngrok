@@ -7,13 +7,20 @@ apt install -y wget
 clear
 k='\033[01;32m'
 echo
-echo "${k}████████╗ ██████╗██╗  ██╗███████╗██╗      ██████╗ ";
-echo "${k}╚══██╔══╝██╔════╝██║  ██║██╔════╝██║     ██╔═══██╗";
-echo "${k}   ██║   ██║     ███████║█████╗  ██║     ██║   ██║";
-echo "${k}   ██║   ██║     ██╔══██║██╔══╝  ██║     ██║   ██║";
-echo "${k}   ██║   ╚██████╗██║  ██║███████╗███████╗╚██████╔╝";
-echo "${k}   ╚═╝    ╚═════╝╚═╝  ╚═╝╚══════╝╚══════╝ ╚═════╝ ";
-echo "${k} /_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/";
+echo "${k}
+╱╱╭╮╭╮╱╱╱╱╱╱╱╱╭╮╱╱╭╮
+╱╱┃┃┃┃╱╱╱╱╱╱╱╱┃╰╮╭╯┃
+╱╱┃┣┫╰━┳━━┳━╮╱╰╮┃┃╭┻━┳╮╭╮
+╭╮┃┣┫╭╮┃╭╮┃╭╮╮╱┃╰╯┃╭╮┃┃┃┃
+┃╰╯┃┃╰╯┃╰╯┃┃┃┃╱╰╮╭┫╭╮┃╰╯┃
+╰━━┻┻━━┻━━┻╯╰╯╱╱╰╯╰╯╰┻━━╯
+echo "${k}
+echo "${k} 
+echo "${k}   
+
+
+
+
 echo
 echo "Deseja instalar o Ngrok? [Y/n]"
 read opcao
@@ -38,7 +45,7 @@ x86_64)
     echo "Arquitetura desconhecida"
 esac
 
-wget "https://github.com/tchelospy/NgrokTest/blob/master/ngrok-stable-linux-${architectureURL}.zip?raw=true" -O ngrok.zip
+wget "https://github.com/Ji-bon/NgrokTest/blob/master/ngrok-stable-linux-${architectureURL}.zip?raw=true" -O ngrok.zip
 unzip ngrok.zip
 cat ngrok > /data/data/com.termux/files/usr/bin/ngrok
 chmod 700 /data/data/com.termux/files/usr/bin/ngrok
