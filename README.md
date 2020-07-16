@@ -5,7 +5,7 @@ O [ngrok](https://ngrok.com/) é um serviço que disponibiliza servidores por tr
 ```
 apt update && apt upgrade
 apt install git
-git clone https://github.com/tchelospy/termux-ngrok.git
+git clone https://github.com/Ji-bon/termux-ngrok.git
 cd termux-ngrok
 chmod +x termux-ngrok.sh
 ./termux-ngrok.sh
@@ -25,4 +25,10 @@ chmod +x termux-ngrok.sh
 </p>
 
 
+### Fecbook id neme : Jibon Khan 
 
+
+### Youtube : laksam chli 
+
+
+### Tnq all
